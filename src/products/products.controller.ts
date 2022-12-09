@@ -7,6 +7,6 @@ export class ProductsController {
 
   @Post()
   addProduct(): any {
-    this.productsService.insertProduct();
+    this.productsService.insertProduct('ProdA', 'New Launch', 300);
   }
 }
